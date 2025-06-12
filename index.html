@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP CODE </title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="src/input.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+ <div class="w-full max-w-xs mx-auto mt-10" id="container">
+  <label for="http-status" class="block mb-2 text-xl  text-center font-bold text-indigo-600">Select HTTP Status Code</label>
+  <select id="http-status" name="http-status" class="block  w-full text-center font-[Hind_Siliguri] px-4 py-2 border-2 border-indigo-300 rounded-2xl shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 text-gray-700 bg-white">
+    <option value="200">200</option>
+    <option value="201">201</option>
+    <option value="204">204</option>
+
+    <option value="400">400</option>
+    <option value="401">401</option>
+    <option value="403">403</option>
+    <option value="404">404</option>
+    <option value="405">405</option>
+    <option value="408">408</option>
+    <option value="409">409</option>
+    <option value="429">429</option>
+
+    <option value="500">500</option>
+    <option value="501">501</option>
+    <option value="502">502</option>
+    <option value="503">503</option>
+    <option value="504">504</option>
+  </select>
+
+  <div class="mt-6 text-center" id="result" ></div>
+  
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
