@@ -14,7 +14,7 @@ A simple and clean web app to select and visualize various HTTP status codes alo
 
 ## 🔗 Live Preview
 
-[Live Site (optional)](https://your-deployment-link.com)
+[[Live Site (optional)](https://your-deployment-link.com)](https://learnhttpcodesinikdho.netlify.app/)
 
 ## 📁 Technologies Used
 
